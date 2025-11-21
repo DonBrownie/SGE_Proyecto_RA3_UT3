@@ -148,7 +148,9 @@
 **Comprobación**: tipo `gantt`.
 **Alternativa**: documentación oficial (URL visible).
 **Capturas**:
-![Gantt](../assets/img/10-gantt/paso01_gantt.png "Gantt")
+![Gantt](../assets/img/10-gantt/paso01.png "Gantt")
+
+![Gantt](../assets/img/10-gantt/comprobacion.png "Gantt")
 
 ### 11 Grid (Enterprise)
 
@@ -156,7 +158,9 @@
 **Comprobación**: tipo `grid`.
 **Alternativa**: documentación oficial (URL visible).
 **Capturas**:
-![Grid](../assets/img/11-grid/paso01_grid.png "Grid")
+![Grid](../assets/img/11-grid/paso01.png "Grid")
+
+![Grid](../assets/img/11-grid/comprobacion.png "Grid")
 
 ### 12 Map (Enterprise)
 
@@ -164,14 +168,18 @@
 **Comprobación**: tipo `map`.
 **Alternativa**: documentación oficial (URL visible).
 **Capturas**:
-![Map](../assets/img/12-map/paso01_map.png "Map")
+![Map](../assets/img/12-map/paso01.png "Map")
+
+![Map](../assets/img/12-map/comprobacion.png "Map")
 
 ### 13 Hierarchy
 
 **Dónde**: RRHH → Empleados → Departamentos → **Hierarchy**.
 **Comprobación**: tipo `hierarchy`.
 **Capturas**:
-![Hierarchy](../assets/img/13-hierarchy/paso01_hierarchy.png "Hierarchy")
+![Hierarchy](../assets/img/13-hierarchy/paso01.png "Hierarchy")
+
+![Hierarchy](../assets/img/13-hierarchy/comprobacion.png "Hierarchy")
 
 ### 14 QWeb (reportes/dashboards)
 
