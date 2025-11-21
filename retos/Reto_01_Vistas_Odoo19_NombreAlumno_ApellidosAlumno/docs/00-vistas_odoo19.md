@@ -1,11 +1,11 @@
 # Vistas en Odoo 19 — {Nombre Apellidos}
-**Reto:** Reto_01_Vistas_Odoo19_{Nombre}_{Apellidos}  
-**Proyecto:** Proyecto_RA3_UT3  
-**Fecha:** 2025-11-21
+
+**Reto:** Reto_01_Vistas_Odoo19_{Nombre}_{Apellidos}**Proyecto:** Proyecto_RA3_UT3**Fecha:** 2025-11-21
 
 > Documento **único** con todas las vistas. Usa **Developer Mode** para confirmar cada tipo de vista.
 
 ## Índice
+
 1. [Guía rápida para localizar vistas](#guía-rápida-para-localizar-vistas)
 2. [Modo desarrollador: cómo verificar el tipo de vista](#modo-desarrollador-cómo-verificar-el-tipo-de-vista)
 3. [Vistas estándar](#vistas-estándar)
@@ -29,6 +29,7 @@
 ---
 
 ## Guía rápida para localizar vistas
+
 - **List / Tree**: Contactos, Facturas, Oportunidades. Icono de **tabla** en la barra de vistas.
 - **Form**: Abre cualquier registro desde la lista.
 - **Kanban**: CRM → Oportunidades → icono de **columnas/pipeline**.
@@ -46,6 +47,7 @@
 ---
 
 ## Modo desarrollador: cómo verificar el tipo de vista
+
 1. Activa **Developer Mode** (Preferencias → Activar modo desarrollador).
 2. En la vista actual, usa el **icono del bug** → *Editar vista*.
 3. Anota:
@@ -58,101 +60,130 @@
 ## Vistas estándar
 
 ### 01 List / Tree
-**Dónde**: Contactos, Facturas, Oportunidades.  
-**Cómo llegar**: Navega al menú, pulsa el **icono de tabla**.  
-**Comprobación (dev mode)**: *Editar vista* → tipo `tree`.  
-**Capturas**:  
-![Lista Contactos](../assets/img/01-list/paso01_vista-lista-contactos.png "Vista List/Tree en Contactos")
+
+**Dónde**: Contactos, Facturas, Oportunidades.
+**Cómo llegar**: Navega al menú, pulsa el **icono de tabla**.
+**Comprobación (dev mode)**: *Editar vista* → tipo `tree`.
+**Capturas**:
+![Lista Contactos](../assets/img/01-list/paso01.png "Vista List/Tree en Contactos")
+
+![Lista Contactos](../assets/img/01-list/comprobacion.png "Vista List/Tree en Contactos")
 
 ### 02 Form
-**Dónde**: Clic en un registro desde la lista.  
-**Comprobación**: tipo `form`.  
-**Capturas**:  
-![Formulario Contacto](../assets/img/02-form/paso01_vista-form-contacto.png "Vista Form")
+
+**Dónde**: Clic en un registro desde la lista.
+**Comprobación**: tipo `form`.
+**Capturas**:
+![Formulario Contacto](../assets/img/02-form/paso01.png "Vista Form")
+
+![Formulario Contacto](../assets/img/02-form/comprobacion.png "Vista Form")
 
 ### 03 Kanban
-**Dónde**: CRM → Oportunidades → icono columnas.  
-**Comprobación**: tipo `kanban`.  
-**Capturas**:  
-![Kanban CRM](../assets/img/03-kanban/paso01_kanban-crm.png "Kanban CRM")
+
+**Dónde**: CRM → Oportunidades → icono columnas.
+**Comprobación**: tipo `kanban`.
+**Capturas**:
+![Kanban CRM](../assets/img/03-kanban/paso01.png "Kanban CRM")
+
+![Kanban CRM](../assets/img/03-kanban/comprobacion.png "Kanban CRM")
 
 ### 04 Search
-**Dónde**: Barra superior en listas/kanban.  
-**Comprobación**: tipo `search` (estructura técnica).  
-**Capturas**:  
-![Search](../assets/img/04-search/paso01_search-filtros.png "Search/Filtros")
+
+**Dónde**: Barra superior en listas/kanban.
+**Comprobación**: tipo `search` (estructura técnica).
+**Capturas**:
+![Search](../assets/img/04-search/paso01.png "Search/Filtros")
+
+![Search](../assets/img/04-search/comprobacion.png "Search/Filtros")
 
 ### 05 Calendar
-**Dónde**: Calendario / Project / CRM.  
-**Comprobación**: tipo `calendar`.  
-**Capturas**:  
-![Calendar](../assets/img/05-calendar/paso01_calendar.png "Calendar")
+
+**Dónde**: Calendario / Project / CRM.
+**Comprobación**: tipo `calendar`.
+**Capturas**:
+![Calendar](../assets/img/05-calendar/paso01.png "Calendar")
+
+![Calendar](../assets/img/05-calendar/comprobacion.png "Calendar")
 
 ### 06 Graph
-**Dónde**: *Reporting* en varios módulos.  
-**Comprobación**: tipo `graph`.  
-**Capturas**:  
-![Graph](../assets/img/06-graph/paso01_graph.png "Graph")
+
+**Dónde**: *Reporting* en varios módulos.
+**Comprobación**: tipo `graph`.
+**Capturas**:
+![Graph](../assets/img/06-graph/paso01.png "Graph")
 
 ### 07 Pivot
-**Dónde**: *Reporting*.  
-**Comprobación**: tipo `pivot`.  
-**Capturas**:  
-![Pivot](../assets/img/07-pivot/paso01_pivot.png "Pivot")
+
+**Dónde**: *Reporting*.
+**Comprobación**: tipo `pivot`.
+**Capturas**:
+![Pivot](../assets/img/07-pivot/paso01.png "Pivot")
+
+![Pivot](../assets/img/07-pivot/comprobacion.png "Pivot")
 
 ---
 
 ## Vistas especiales
 
 ### 08 Activity
-**Dónde**: CRM → Oportunidades → icono **reloj**.  
-**Comprobación**: tipo `activity`.  
-**Capturas**:  
-![Activity](../assets/img/08-activity/paso01_activity.png "Activity")
+
+**Dónde**: CRM → Oportunidades → icono **reloj**.
+**Comprobación**: tipo `activity`.
+**Capturas**:
+![Activity](../assets/img/08-activity/paso01.png "Activity")
+
+![Activity](../assets/img/08-activity/comprobacion.png "Activity")
 
 ### 09 Cohort (Enterprise)
-**Dónde**: CRM/Helpdesk/Suscripciones → *Reporting → Cohort*.  
-**Comprobación**: tipo `cohort`.  
-**Alternativa**: si no está disponible, captura de **documentación oficial** (URL visible) + explicación.  
-**Capturas**:  
-![Cohort](../assets/img/09-cohort/paso01_cohort.png "Cohort")
+
+**Dónde**: CRM/Helpdesk/Suscripciones → *Reporting → Cohort*.
+**Comprobación**: tipo `cohort`.
+**Alternativa**: si no está disponible, captura de **documentación oficial** (URL visible) + explicación.
+**Capturas**:
+![Cohort](../assets/img/09-cohort/paso01.png "Cohort")
 
 ### 10 Gantt (Enterprise)
-**Dónde**: Project/Planning → icono **Gantt**.  
-**Comprobación**: tipo `gantt`.  
-**Alternativa**: documentación oficial (URL visible).  
-**Capturas**:  
+
+**Dónde**: Project/Planning → icono **Gantt**.
+**Comprobación**: tipo `gantt`.
+**Alternativa**: documentación oficial (URL visible).
+**Capturas**:
 ![Gantt](../assets/img/10-gantt/paso01_gantt.png "Gantt")
 
 ### 11 Grid (Enterprise)
-**Dónde**: Planning / Forecast / Timesheets.  
-**Comprobación**: tipo `grid`.  
-**Alternativa**: documentación oficial (URL visible).  
-**Capturas**:  
+
+**Dónde**: Planning / Forecast / Timesheets.
+**Comprobación**: tipo `grid`.
+**Alternativa**: documentación oficial (URL visible).
+**Capturas**:
 ![Grid](../assets/img/11-grid/paso01_grid.png "Grid")
 
 ### 12 Map (Enterprise)
-**Dónde**: Contactos / CRM (con módulo de mapas).  
-**Comprobación**: tipo `map`.  
-**Alternativa**: documentación oficial (URL visible).  
-**Capturas**:  
+
+**Dónde**: Contactos / CRM (con módulo de mapas).
+**Comprobación**: tipo `map`.
+**Alternativa**: documentación oficial (URL visible).
+**Capturas**:
 ![Map](../assets/img/12-map/paso01_map.png "Map")
 
 ### 13 Hierarchy
-**Dónde**: RRHH → Empleados → Departamentos → **Hierarchy**.  
-**Comprobación**: tipo `hierarchy`.  
-**Capturas**:  
+
+**Dónde**: RRHH → Empleados → Departamentos → **Hierarchy**.
+**Comprobación**: tipo `hierarchy`.
+**Capturas**:
 ![Hierarchy](../assets/img/13-hierarchy/paso01_hierarchy.png "Hierarchy")
 
 ### 14 QWeb (reportes/dashboards)
-**Dónde**: Factura → **Imprimir Factura**, o dashboards.  
-**Comprobación**: reporte QWeb (no es vista UI clásica). Indica acción y plantilla.  
-**Capturas**:  
+
+**Dónde**: Factura → **Imprimir Factura**, o dashboards.
+**Comprobación**: reporte QWeb (no es vista UI clásica). Indica acción y plantilla.
+**Capturas**:
 ![QWeb Report](../assets/img/14-qweb/paso01_qweb_invoice-report.png "Reporte QWeb")
 
 ---
 
 ## Checklist final
+
 - [ ] Todas las **vistas cubiertas** (o alternativa con documentación oficial).
 - [ ] **Developer Mode** usado y **tipo de vista verificado** en cada sección.
 - [ ] **Capturas nítidas**, rutas relativas correctas y `alt/title` informativos.
