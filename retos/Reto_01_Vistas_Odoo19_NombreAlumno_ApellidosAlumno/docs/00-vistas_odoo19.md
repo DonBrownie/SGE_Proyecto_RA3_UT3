@@ -186,7 +186,11 @@
 **Dónde**: Factura → **Imprimir Factura**, o dashboards.
 **Comprobación**: reporte QWeb (no es vista UI clásica). Indica acción y plantilla.
 **Capturas**:
-![QWeb Report](../assets/img/14-qweb/paso01_qweb_invoice-report.png "Reporte QWeb")
+![QWeb Report](../assets/img/14-qweb/paso01.png "Reporte QWeb")
+
+![QWeb Report](../assets/img/14-qweb/paso02.png "Reporte QWeb")
+
+![QWeb Report](../assets/img/14-qweb/paso03.png "Reporte QWeb")
 
 ---
 
